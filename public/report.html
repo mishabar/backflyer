@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BackFlyer Report</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/datepicker.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>BackFlyer Report</h1>
+        <form class="form-horizontal col-4">
+            <div class="form-group">
+                <label for="inputDate" class="col-lg-2 control-label">Date</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="inputDate" placeholder="Date">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-12">
+                    <button type="button" id="btnFilter" class="btn btn-default pull-right">Filter</button>
+                </div>
+            </div>
+        </form>
+        <div class="clearfix"></div>
+        <h3>Resutls</h3>
+        <h4>OS</h4>
+        <div class="row">
+            <div class="col-2">Android</div>
+            <div class="col-3" id="android"></div>
+        </div>
+        <div class="row">
+            <div class="col-2">iOS</div>
+            <div class="col-3" id="ios"></div>
+        </div>
+        <h4>Referrer</h4>
+        <div class="row">
+            <div class="col-2">Google</div>
+            <div class="col-3" id="google"></div>
+        </div>
+        <div class="row">
+            <div class="col-2">Other</div>
+            <div class="col-3" id="other"></div>
+        </div>
+        <div class="row">
+            <div class="col-2">Empty</div>
+            <div class="col-3" id="empty"></div>
+        </div>
+        <h4>Clicks</h4>
+        <div class="row">
+            <div class="col-2">Android</div>
+            <div class="col-3" id="andclicks"></div>
+        </div>
+        <div class="row">
+            <div class="col-2">iOS</div>
+            <div class="col-3" id="iosclicks"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="/js/parse-1.2.8.min.js"></script>
+    <script type="text/javascript">
+        Parse.initialize("UTX0Xj82WZK0VmwvZAakKajCKK6PnygF2VTcviwF", "BhwbUzLFpKUiqF9BWwLvbbGFbXTmCqZnBcuQy7Px");
+        $('#inputDate').datepicker({
+            format: 'dd/mm/yyyy', autoclose: true
+        });
+        $('#inputDate').datepicker("update", new Date());
+        var BFOSnRefTracking = Parse.Object.extend("BFOSnRefTracking");
+        var BFClicksTracking = Parse.Object.extend("BFClicksTracking");
+        var ossummary = { android: 0, ios: 0, google: 0, other: 0, empty: 0 };
+		var clicksSummary = { android: 0, ios: 0 };
+
+        function queryOS(page, dt) {
+            var query = new Parse.Query(BFOSnRefTracking);
+            query.equalTo("Date", dt);
+            query.skip((page - 1) * 1000);
+            query.limit(1000);
+            query.find({
+                success: function (results) {
+                    // Successfully retrieved the object.
+                    $.each(results, function (idx, item) {
+                        if (item.get("OS") == "android") { ossummary.android++ } else { ossummary.ios++ }
+                        if (/www\.google/.test(item.get("Referrer"))) { ossummary.google++ }
+                        else if (item.get("Referrer") == "") { ossummary.empty++ }
+                        else { ossummary.other++; }
+                    });
+                    if (results.length < 1000) {
+                        $("#android").html(ossummary.android);
+                        $("#ios").html(ossummary.ios);
+                        $("#google").html(ossummary.google);
+                        $("#other").html(ossummary.other);
+                        $("#empty").html(ossummary.empty);
+                    } else {
+                        queryOS(page + 1, dt);
+                    }
+                },
+                error: function (error) {
+                    response.error("Query failed.");
+                }
+            });
+        }
+
+        function queryClicks(page, dt) {
+            var query2 = new Parse.Query(BFClicksTracking);
+            query2.equalTo("Date", dt);
+            query2.skip((page - 1) * 1000);
+            query2.limit(1000);
+            query2.find({
+                success: function (results) {
+                    $.each(results, function (idx, item) {
+                        if (item.get("OS") == "android") { clicksSummary.android++ }
+                        else if (item.get("OS").match("(iphone|ipad|ipod)")) { clicksSummary.ios++ }
+                    });
+
+                    if (results.length < 1000) {
+                        $("#andclicks").html(clicksSummary.android);
+                        $("#iosclicks").html(clicksSummary.ios);
+                    } else {
+                        queryClicks(page + 1, dt);
+                    }
+                },
+                error: function (error) {
+                    response.error("Query failed.");
+                }
+            });
+        }
+
+        $("#btnFilter").on("click", function () {
+            var dp = $('#inputDate').val().match(/\d+/g);
+            var dt = dp.join('');
+
+			ossummary = { android: 0, ios: 0, google: 0, other: 0, empty: 0 };
+			clicksSummary = { android: 0, ios: 0 };
+		
+            queryOS(1, dt);
+            queryClicks(1, dt);
+        });
+    </script>
+</body>
+</html>

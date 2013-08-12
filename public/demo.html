@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo</title>
+    <link href="/css/backflyer.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 style="text-align: center; font-family: Verdana;">Backflyer Demo Page</h1>
+    <script type="text/javascript">
+        (function () {
+            var s = document.createElement("script");
+            s.async = true;
+            s.src = "/js/backflyer.js";
+            var fs = document.getElementsByTagName("script")[0];
+            fs.parentNode.insertBefore(s, fs);
+        })();
+    </script>
+</body>
+</html>
