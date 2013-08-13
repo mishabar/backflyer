@@ -24,7 +24,7 @@ class IOSAppsImporter
       end
       begin
         file = File.open("#{Dir.pwd}/public/links/ios.json", 'w:UTF-8')
-        file.write("_bfShowLinks({\"links\":#{apps.to_json}})")
+        file.write("_bfShowLinks({\"links\":#{apps.to_json}, \"date\": \"#{Time.now}\"})")
       rescue IOError => e
         #some error occur, dir not writable etc.
         puts "Error occurred during download: #{e.message}"
