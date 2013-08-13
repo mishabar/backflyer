@@ -1,0 +1,4 @@
+module LinksHelper
+
+
+end

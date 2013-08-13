@@ -22,15 +22,8 @@ class IOSAppsImporter
                    'image' => app['im:image'][2]['label'],
                    'url' => url})
       end
-      begin
-        file = File.open("#{Dir.pwd}/public/links/ios.json", 'w:UTF-8')
-        file.write("_bfShowLinks({\"links\":#{apps.to_json}, \"date\": \"#{Time.now}\"})")
-      rescue IOError => e
-        #some error occur, dir not writable etc.
-        puts "Error occurred during download: #{e.message}"
-      ensure
-        file.close unless file == nil
-      end
+
+      return {'links' => apps, 'date' => Time.now}
     end
   end
 end

@@ -237,7 +237,7 @@ function attachBackflyer() {
             _bfTracking.save({ OS: _bfos[0], Referrer: document.referrer, Date: getDateString() });
 
             var _bfurl = _bfsrc + "links/";
-            _bfurl += (_bfos[0] == "android" ? "android.json" : "ios.json");
+            _bfurl += (_bfos[0] == "android" ? "android" : "ios");
             $.ajax({
                 url: _bfurl, crossDomain: true, contentType: "application/json", jsonpCallback: "_bfShowLinks", dataType: "jsonp",
                 success: function (data) {
