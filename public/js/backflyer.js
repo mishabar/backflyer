@@ -1,4 +1,5 @@
 ﻿// Check the need to initiate backflyer
+var _bfsrc = "http://backflyer-demo.herokuapp.com/";
 var _bfos = navigator.userAgent.toLowerCase().match(/(android|iphone|ipad|ipod)/);
 var _bfrefptrn = new RegExp(document.location.hostname);
 var _bfIsGoogle = /www\.google/.test(document.referrer);
@@ -235,7 +236,7 @@ function attachBackflyer() {
             var _bfTracking = new BFOSnRefTracking();  
             _bfTracking.save({ OS: _bfos[0], Referrer: document.referrer, Date: getDateString() });
 
-            var _bfurl = "http://www.davai.com.br/backflyer/links/";
+            var _bfurl = _bfsrc + "links/";
             _bfurl += (_bfos[0] == "android" ? "android.json" : "ios.json");
             $.ajax({
                 url: _bfurl, crossDomain: true, contentType: "application/json", jsonpCallback: "_bfShowLinks", dataType: "jsonp",
@@ -261,13 +262,13 @@ if (_bfos != null && history && (_bfIsGoogle || _bfOtherRef || !_bfHasRef)) {
     if (typeof jQuery !== "undefined" && typeof Parse !== "undefined") {
         attachBackflyer();
     } else if (typeof Parse === "undefined") {
-        loadScript("http://www.davai.com.br/backflyer/js/parse-1.2.8.min.js", function () {
+        loadScript(_bfsrc + "js/parse-1.2.8.min.js", function () {
             // Initialize Parse
             Parse.initialize("UTX0Xj82WZK0VmwvZAakKajCKK6PnygF2VTcviwF", "BhwbUzLFpKUiqF9BWwLvbbGFbXTmCqZnBcuQy7Px");
-            loadScript("http://www.davai.com.br/backflyer/js/jquery.js", attachBackflyer);
+            loadScript(_bfsrc + "js/jquery.js", attachBackflyer);
         });
     } else {
         Parse.initialize("UTX0Xj82WZK0VmwvZAakKajCKK6PnygF2VTcviwF", "BhwbUzLFpKUiqF9BWwLvbbGFbXTmCqZnBcuQy7Px");
-        loadScript("http://www.davai.com.br/backflyer/js/jquery.js", attachBackflyer);
+        loadScript(_bfsrc + "js/jquery.js", attachBackflyer);
     }
 }
