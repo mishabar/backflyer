@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591654c9-a8e5-4669-9a96-9dca8fc986d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/backflyer.js" afterPath="$PROJECT_DIR$/public/js/backflyer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/android_apps_importer.rb" afterPath="$PROJECT_DIR$/lib/android_apps_importer.rb" />
     </list>
     <ignored path="backflyer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376400703638" ignored="false" />
     <file path="/app-imports.rake" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376330140810" ignored="false" />
     <file path="/Gemfile" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376335048118" ignored="false" />
-    <file path="/android_apps_importer.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376400936119" ignored="false" />
+    <file path="/android_apps_importer.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376405699788" ignored="false" />
     <file path="/ios_apps_importer.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376333302835" ignored="false" />
     <file path="/application.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376330333720" ignored="false" />
     <file path="/backflyer.js" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376402899856" ignored="false" />
@@ -33,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="android_apps_importer.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="android_apps_importer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/android_apps_importer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="29" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+            <state line="23" column="24" selection-start="979" selection-end="979" vertical-scroll-proportion="0.55460995">
               <folding />
             </state>
           </provider>
@@ -60,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backflyer.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="backflyer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/backflyer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="267" column="32" selection-start="10583" selection-end="10583" vertical-scroll-proportion="0.7106383">
+            <state line="267" column="32" selection-start="10583" selection-end="10583" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1376402902546" expanded="false" signature="8977:9040" placeholder="..." />
               </folding>
@@ -121,9 +120,9 @@
         <option value="$PROJECT_DIR$/lib/tasks/app-imports.rake" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/lib/android_apps_importer.rb" />
         <option value="$PROJECT_DIR$/lib/ios_apps_importer.rb" />
         <option value="$PROJECT_DIR$/public/js/backflyer.js" />
+        <option value="$PROJECT_DIR$/lib/android_apps_importer.rb" />
       </list>
     </option>
   </component>
@@ -660,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/android_apps_importer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="29" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ios_apps_importer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="51" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
@@ -676,10 +668,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/backflyer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="32" selection-start="10583" selection-end="10583" vertical-scroll-proportion="0.7106383">
+        <state line="267" column="32" selection-start="10583" selection-end="10583" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1376402902546" expanded="false" signature="8977:9040" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/android_apps_importer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="979" selection-end="979" vertical-scroll-proportion="0.55460995">
+          <folding />
         </state>
       </provider>
     </entry>
