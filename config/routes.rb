@@ -1,4 +1,6 @@
 Backflyer::Application.routes.draw do
+  get "share/sample"
+
   get "links/android"
 
   get "links/ios"
