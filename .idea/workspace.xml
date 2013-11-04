@@ -22,7 +22,7 @@
     <file path="/sample.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1377037649439" ignored="false" />
     <file path="/routes.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383573037327" ignored="false" />
     <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383580092387" ignored="false" />
-    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383581151483" ignored="false" />
+    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383581601861" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <file leaf-file-name="links.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="0.3427835">
+            <state line="25" column="17" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.82474226">
               <folding />
             </state>
           </provider>
@@ -816,13 +816,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="631" selection-end="631" vertical-scroll-proportion="-9.192307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="97" selection-start="287" selection-end="287" vertical-scroll-proportion="-4.576923">
@@ -830,9 +823,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="631" selection-end="631" vertical-scroll-proportion="-9.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="0.3427835">
+        <state line="25" column="17" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.82474226">
           <folding />
         </state>
       </provider>
