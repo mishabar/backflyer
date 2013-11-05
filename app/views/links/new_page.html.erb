@@ -1,22 +1,27 @@
 <div id="container">
-  <div class="main-game">
-    <div class="top-text">Recommended for you</div>
-    <div class="image" style="background-image: url('<%= @ads[0]['productThumbnail'] %>')"
-         onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
-    </div>
-    <div class="name"><%= @ads[0]['productName'] %></div>
-    <div class="dl-button" onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
-      <div>
-        <img src="/img/android-dl.png" />
-        <div style="float:right">
-        <span class="big">Get it now!</span><br/>
-        <span style="text-transform: uppercase">Free download</span>
+  <div class="main-game" style="background-image: url('<%= @ads[0]['productThumbnail'] %>'); background-size: 100%; background-size: cover;">
+    <div>
+      <div class="top-text">Recommended for you</div>
+      <div class="image" style="background-image: url('<%= @ads[0]['productThumbnail'] %>')"
+           onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
+      </div>
+      <div class="name"><%= @ads[0]['productName'] %></div>
+      <div class="dl-button" onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
+        <div>
+          <img src="/img/android-dl.png"/>
+
+          <div style="float:right">
+            <span class="big">Get it now!</span><br/>
+            <span style="text-transform: uppercase">Free download</span>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="stars"></div>
-    <div class="arrow">
-      <div></div>
+      <div class="stars">
+        <img src="<%= @ads[0]['averageRatingImageURL'] %>" style="height: 80%;"/>
+      </div>
+      <div class="arrow">
+        <div></div>
+      </div>
     </div>
   </div>
   <div class="more-games">
@@ -24,7 +29,7 @@
     <table>
       <tr>
         <% (1..@ads.count-1).each do |i| %>
-            <td><a href="<%= @ads[i]['clickProxyURL'] %>"><img src="<%= @ads[i]['productThumbnail'] %>" /></a></td>
+            <td><a href="<%= @ads[i]['clickProxyURL'] %>"><img src="<%= @ads[i]['productThumbnail'] %>"/></a></td>
         <% end %>
       </tr>
     </table>

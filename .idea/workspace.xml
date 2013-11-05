@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591654c9-a8e5-4669-9a96-9dca8fc986d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/opacity.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/links_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/links_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/links/new_page.html.erb" afterPath="$PROJECT_DIR$/app/views/links/new_page.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backflyer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,14 +19,14 @@
     <file path="/backflyer.js" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376402899856" ignored="false" />
     <file path="/production.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376406654775" ignored="false" />
     <file path="/links_helper.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376407844582" ignored="false" />
-    <file path="/links_controller.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383670413862" ignored="false" />
+    <file path="/links_controller.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383671861570" ignored="false" />
     <file path="/a.dummy" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383663012442" ignored="false" />
     <file path="/fragment.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383670325807" ignored="false" />
     <file path="/links_loader.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376409353682" ignored="false" />
     <file path="/sample.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1377037649439" ignored="false" />
     <file path="/routes.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383573037327" ignored="false" />
-    <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383671232696" ignored="false" />
-    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383670661712" ignored="false" />
+    <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383672217588" ignored="false" />
+    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383672000852" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383667338527" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +50,7 @@
       <file leaf-file-name="links_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="6" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0">
+            <state line="46" column="33" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,9 +59,13 @@
       <file leaf-file-name="new_page.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="325" selection-end="325" vertical-scroll-proportion="0.14739884">
+            <state line="19" column="78" selection-start="941" selection-end="941" vertical-scroll-proportion="0.81360203">
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +74,7 @@
       <file leaf-file-name="links.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="112" selection-start="460" selection-end="467" vertical-scroll-proportion="-3.4">
+            <state line="17" column="11" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,8 +115,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
         <option value="$PROJECT_DIR$/app/views/links/new_page.html.erb" />
       </list>
     </option>
@@ -619,7 +627,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25546977" sideWeight="0.60349464" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3965054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3965054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34501347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -693,10 +701,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/links_controller.rb</url>
+          <line>38</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -771,25 +786,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="112" selection-start="460" selection-end="467" vertical-scroll-proportion="-3.4">
+        <state line="46" column="33" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0">
+        <state line="17" column="11" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="325" selection-end="325" vertical-scroll-proportion="0.14739884">
+        <state line="19" column="78" selection-start="941" selection-end="941" vertical-scroll-proportion="0.81360203">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
