@@ -4,7 +4,7 @@
     <div class="image" style="background-image: url('<%= @ads[0]['productThumbnail'] %>')"
          onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
     </div>
-    <div class="name">Candy Crash Saga</div>
+    <div class="name"><%= @ads[0]['productName'] %></div>
     <div class="dl-button" onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
       <div>
         <img src="/img/android-dl.png" />
