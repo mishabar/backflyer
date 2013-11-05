@@ -15,7 +15,7 @@
     <file path="/backflyer.js" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376402899856" ignored="false" />
     <file path="/production.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376406654775" ignored="false" />
     <file path="/links_helper.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376407844582" ignored="false" />
-    <file path="/links_controller.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383662990442" ignored="false" />
+    <file path="/links_controller.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383667987823" ignored="false" />
     <file path="/a.dummy" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383663012442" ignored="false" />
     <file path="/fragment.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383663334449" ignored="false" />
     <file path="/links_loader.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376409353682" ignored="false" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="links_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="322" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.5843521">
+            <state line="39" column="4" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.6259169">
               <folding />
             </state>
           </provider>
@@ -731,7 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="322" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.5843521">
+        <state line="39" column="4" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.6259169">
           <folding />
         </state>
       </provider>
