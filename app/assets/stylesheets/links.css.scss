@@ -9,12 +9,12 @@ html, body { margin: 0px; padding: 0px;}
   background-color: #000;
   opacity: 0.8;
   .top-text{ font-size: 3.5em; font-style: italic; color: #fff; margin: 0px auto; padding: 1em;}
-  .image { height: 20em; width: 20em; margin: 0px auto; border-radius: 1em; background-color: #ccc;}
+  .image { height: 20em; width: 20em; margin: 0px auto; border-radius: 1em; background-size: 100%; background-size:cover;}
   .name { font-size: 5em; font-weight: bold; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #fff; padding: 0.8em;}
-  .dl-button { background-color: #849e26; margin: 0px auto; padding: 1em 3em; display: inline-block;
+  .dl-button { background-color: #849e26; margin: 0px auto; padding: 1em 4em; display: inline-block;
     img { float: left; margin-right: 2em;}
-    span { display: inline-block; color: #fff; font-size: 2em;}
-    .big { font-size: 2.5em; font-weight: bold;}
+    span { display: inline-block; color: #fff; font-size: 2.1em;}
+    .big { font-size: 3.5em; }
   }
   .stars { background: transparent url("/img/stars.png") no-repeat 50% 0%; margin: 1em auto; width: 100%; height: 6em;}
   .arrow > div { width: 0;height: 0;border-left: 2em solid transparent; border-right: 2em solid transparent; border-bottom: 2em solid #fff; margin: 0px auto; }

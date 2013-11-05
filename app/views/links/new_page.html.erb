@@ -1,14 +1,16 @@
 <div id="container">
   <div class="main-game">
     <div class="top-text">Recommended for you</div>
-    <div class="image"></div>
+    <div class="image" style="background-image: url('<%= @ads[0]['productThumbnail'] %>')"
+         onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
+    </div>
     <div class="name">Candy Crash Saga</div>
-    <div class="dl-button">
+    <div class="dl-button" onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
       <div>
-        <img src="/img/android.png" />
+        <img src="/img/android-dl.png" />
         <div style="float:right">
         <span class="big">Get it now!</span><br/>
-        <span>Free download</span>
+        <span style="text-transform: uppercase">Free download</span>
         </div>
       </div>
     </div>
@@ -21,10 +23,9 @@
     <div class="bottom-text">More Cool Downloads:</div>
     <table>
       <tr>
-        <td><img src="" /></td>
-        <td><img src="" /></td>
-        <td><img src="" /></td>
-        <td><img src="" /></td>
+        <% (1..@ads.count-1).each do |i| %>
+            <td><a href="<%= @ads[i]['clickProxyURL'] %>"><img src="<%= @ads[i]['productThumbnail'] %>" /></a></td>
+        <% end %>
       </tr>
     </table>
   </div>
