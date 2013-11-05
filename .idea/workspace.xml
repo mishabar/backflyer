@@ -46,7 +46,7 @@
       <file leaf-file-name="links_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="5" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.7512195">
+            <state line="44" column="0" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.58536583">
               <folding />
             </state>
           </provider>
@@ -705,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="5" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.7512195">
+        <state line="44" column="0" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.58536583">
           <folding />
         </state>
       </provider>
