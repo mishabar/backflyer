@@ -4,7 +4,7 @@ require 'json'
 
 class LinksController < ApplicationController
   def android
-    render :text =>"_bfShowLinks(#{LinksLoader.android_links.to_json})"
+    render :text => "_bfShowLinks(#{LinksLoader.android_links.to_json})"
   end
 
   def ios
@@ -15,7 +15,7 @@ class LinksController < ApplicationController
     #  Get page details
     mechanize = Mechanize.new { |agent|
       agent.user_agent = request.env['HTTP_USER_AGENT']
-      agent.request_headers = { 'Accept-Language' => request.env['HTTP_ACCEPT_LANGUAGE'] }
+      agent.request_headers = {'Accept-Language' => request.env['HTTP_ACCEPT_LANGUAGE']}
       agent.ssl_version = 'SSLv3'
       agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
     }
@@ -25,25 +25,31 @@ class LinksController < ApplicationController
       @image = page.at('img[@class="cover-image"]')[:src]
     end
 
-    render :text => "_bfShowLink(#{ { :name => @name, :image => @image }.to_json })"
+    render :text => "_bfShowLink(#{ {:name => @name, :image => @image}.to_json })"
   end
 
   def get_itunes_data
     app_id = /id\d+/.match(params['link'])
     response = HTTParty.get("https://itunes.apple.com/lookup?id=#{app_id[0][2, app_id[0].length - 2]}")
 
-    render :text => "_bfShowLink(#{ { :name => response['results'][0]['trackName'], :image => response['results'][0]['artworkUrl100'] }.to_json })"
+    render :text => "_bfShowLink(#{ {:name => response['results'][0]['trackName'], :image => response['results'][0]['artworkUrl100']}.to_json })"
   end
 
   def new_page
-    ipAddress = request.env['REMOTE_ADDR']
-    unless request.env['HTTP_X_FORWARDED_FOR'] == nil
-      ipAddress = request.env['HTTP_X_FORWARDED_FOR']
-    end
+    if (request.env['HTTP_USER_AGENT'].downcase.match(/android/) != nil ||
+        request.env['HTTP_USER_AGENT'].downcase.match(/iphone/) != nil)
 
-    xml = HTTParty.get(URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=6&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{ipAddress}"))
-    URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=6&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{ipAddress}")
-    request.env.each { |k,v| puts "#{k} - #{v}"}
-    @ads = xml['ads']['ad']
+      ipAddress = request.env['REMOTE_ADDR']
+      unless request.env['HTTP_X_FORWARDED_FOR'] == nil
+        ipAddress = request.env['HTTP_X_FORWARDED_FOR']
+      end
+
+      xml = HTTParty.get(URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=1&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{ipAddress}"))
+      URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=1&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{ipAddress}")
+      request.env.each { |k, v| puts "#{k} - #{v}" }
+      @ads = xml['ads']['ad']
+    else
+      render :text => 'Available only for mobile devices'
+    end
   end
 end

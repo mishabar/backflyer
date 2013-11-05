@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591654c9-a8e5-4669-9a96-9dca8fc986d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/links_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/links_controller.rb" />
     </list>
     <ignored path="backflyer.iws" />
@@ -15,14 +16,14 @@
     <file path="/backflyer.js" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376402899856" ignored="false" />
     <file path="/production.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376406654775" ignored="false" />
     <file path="/links_helper.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376407844582" ignored="false" />
-    <file path="/links_controller.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383669549614" ignored="false" />
+    <file path="/links_controller.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383670413862" ignored="false" />
     <file path="/a.dummy" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383663012442" ignored="false" />
-    <file path="/fragment.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383663334449" ignored="false" />
+    <file path="/fragment.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383670325807" ignored="false" />
     <file path="/links_loader.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376409353682" ignored="false" />
     <file path="/sample.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1377037649439" ignored="false" />
     <file path="/routes.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383573037327" ignored="false" />
     <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383667064966" ignored="false" />
-    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383662710862" ignored="false" />
+    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383670661712" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383667338527" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
       <file leaf-file-name="links_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.58536583">
+            <state line="47" column="6" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.66241133">
               <folding />
             </state>
           </provider>
@@ -55,7 +56,7 @@
       <file leaf-file-name="new_page.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="6" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+            <state line="31" column="6" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-20.26923">
               <folding />
             </state>
           </provider>
@@ -64,7 +65,7 @@
       <file leaf-file-name="links.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+            <state line="10" column="112" selection-start="460" selection-end="467" vertical-scroll-proportion="-3.4">
               <folding />
             </state>
           </provider>
@@ -105,8 +106,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
         <option value="$PROJECT_DIR$/app/views/links/new_page.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
       </list>
     </option>
@@ -278,6 +279,46 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="links" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -294,6 +335,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backflyer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,7 +618,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25546977" sideWeight="0.60349464" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3965054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3965054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34501347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -614,7 +695,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -682,13 +763,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Rails/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
@@ -698,14 +772,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="6" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+        <state line="31" column="6" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-20.26923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="112" selection-start="460" selection-end="467" vertical-scroll-proportion="-3.4">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.58536583">
+        <state line="47" column="6" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.66241133">
           <folding />
         </state>
       </provider>
