@@ -37,6 +37,7 @@ class LinksController < ApplicationController
 
   def new_page
     puts URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=6&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{request.env['REMOTE_ADDR']}")
+    request.env.each { |k,v| puts "#{k} - #{v}"}
 
     xml = HTTParty.get(URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=6&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{request.env['REMOTE_ADDR']}"))
     ##{request.env['REMOTE_ADDR']}
