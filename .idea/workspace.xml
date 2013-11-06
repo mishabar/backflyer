@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591654c9-a8e5-4669-9a96-9dca8fc986d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/links_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/links_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/0-stars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/1-stars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/2-stars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/3-stars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/4-stars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/5-stars.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/links/new_page.html.erb" afterPath="$PROJECT_DIR$/app/views/links/new_page.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backflyer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383669237946" ignored="false" />
+    <file path="/Dummy.txt" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383755489352" ignored="false" />
     <file path="/app-imports.rake" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376330140810" ignored="false" />
     <file path="/Gemfile" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1381096727216" ignored="false" />
     <file path="/android_apps_importer.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376407809819" ignored="false" />
@@ -21,7 +28,7 @@
     <file path="/links_loader.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376409353682" ignored="false" />
     <file path="/sample.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1377037649439" ignored="false" />
     <file path="/routes.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383573037327" ignored="false" />
-    <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383673086735" ignored="false" />
+    <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383755708983" ignored="false" />
     <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383672000852" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383667338527" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +53,7 @@
       <file leaf-file-name="links_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.58536583">
+            <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.9170732">
               <folding />
             </state>
           </provider>
@@ -55,12 +62,9 @@
       <file leaf-file-name="new_page.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="112" selection-start="133" selection-end="133" vertical-scroll-proportion="-0.65384614">
+            <state line="19" column="23" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.423077">
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +160,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -384,7 +389,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -621,7 +625,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25546977" sideWeight="0.60349464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25868726" sideWeight="0.60349464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3965054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -696,13 +700,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/links_controller.rb</url>
-          <line>38</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -764,9 +761,7 @@
     </entry>
     <entry file="file://C:/Rails/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.53366584">
-          <folding />
-        </state>
+        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.53366584" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
@@ -776,9 +771,7 @@
     </entry>
     <entry file="file://C:/Rails/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
@@ -790,19 +783,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="112" selection-start="133" selection-end="133" vertical-scroll-proportion="-0.65384614">
+        <state line="19" column="23" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.423077">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.58536583">
+        <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.9170732">
           <folding />
         </state>
       </provider>

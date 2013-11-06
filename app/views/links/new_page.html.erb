@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="stars">
-        <img src="<%= @ads[0]['averageRatingImageURL'] %>" style="height: 80%;"/>
+        <img src="/img/<%= @ads[0]['rating'].to_f.round %>-stars.png" style="height: 80%;"/>
       </div>
       <div class="arrow">
         <div></div>
