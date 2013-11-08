@@ -5,6 +5,8 @@ Backflyer::Application.routes.draw do
   get 'links/ios'
 
   get 'links/new_page'
+  match 'links/c/:id' => 'links#add_click_new'
+
   match 'links/itunes' => 'links#get_itunes_data'
   match 'links/google' => 'links#get_google_store_data'
 

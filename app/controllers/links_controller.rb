@@ -1,8 +1,12 @@
 require 'mechanize'
 require 'httparty'
 require 'json'
+require 'active_record'
 
 class LinksController < ApplicationController
+
+  @@columns = %w(first second third forth fifth sixth)
+
   def android
     render :text => "_bfShowLinks(#{LinksLoader.android_links.to_json})"
   end
@@ -53,5 +57,10 @@ class LinksController < ApplicationController
     else
       render :text => 'Available only for mobile devices'
     end
+  end
+
+  def add_click_new
+    ClicksCounter.first().increment!(@@columns[params[:id].to_i])
+    render :json => { :added => true }
   end
 end

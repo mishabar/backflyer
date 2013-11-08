@@ -10,7 +10,8 @@ gem 'rails', '3.2.11'
 
 gem 'httparty'
 gem 'mechanize'
-#gem 'pg'
+gem 'pg'
+gem 'rspec-rails', '2.6.1'
 
 # Gems used only for assets and not required
 # in production environments by default.

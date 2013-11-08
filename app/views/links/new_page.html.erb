@@ -3,10 +3,10 @@
     <div>
       <div class="top-text">Recommended for you</div>
       <div class="image" style="background-image: url('<%= @ads[0]['productThumbnail'] %>')"
-           onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
+           onclick="addClick(0);document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
       </div>
       <div class="name"><%= @ads[0]['productName'] %></div>
-      <div class="dl-button" onclick="document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
+      <div class="dl-button" onclick="addClick(0);document.location.href='<%= @ads[0]['clickProxyURL'] %>';">
         <div>
           <img src="/img/android-dl.png"/>
 
@@ -29,9 +29,16 @@
     <table>
       <tr>
         <% (1..@ads.count-1).each do |i| %>
-            <td><a href="<%= @ads[i]['clickProxyURL'] %>"><img src="<%= @ads[i]['productThumbnail'] %>"/></a></td>
+            <td><a onclick="addClick(<%= i %>);" href="<%= @ads[i]['clickProxyURL'] %>"><img src="<%= @ads[i]['productThumbnail'] %>"/></a></td>
         <% end %>
       </tr>
     </table>
   </div>
 </div>
+<script>
+  function addClick(id){
+      var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+      xmlhttp.open("GET", "/links/c/" + id, true);
+      xmlhttp.send();
+  }
+</script>
