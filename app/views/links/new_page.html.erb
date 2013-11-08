@@ -16,8 +16,8 @@
           </div>
         </div>
       </div>
-      <div class="stars">
-        <img src="/img/<%= @ads[0]['rating'].to_f.round %>-stars.png" style="height: 80%;"/>
+      <div class="stars" style="width: <%= (432 / 5 * @ads[0]['rating'].to_f).round() %>px;">
+        <img src="/img/stars.png" style="height: 80%;"/>
       </div>
       <div class="arrow">
         <div></div>
