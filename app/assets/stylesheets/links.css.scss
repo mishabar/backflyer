@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 html, body { margin: 0px; padding: 0px;}
 #container{ font-family: Verdana, sans-serif; }
@@ -14,8 +15,8 @@ html, body { margin: 0px; padding: 0px;}
   .name { font-family: Verdana;font-size: 5em; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #fff; padding: 0.8em;}
   .dl-button { background-color: #849e26; margin: 0px auto; padding: 1em 4em; display: inline-block;
     img { float: left; margin-right: 2em;}
-    span { display: inline-block; color: #fff; font-size: 2.1em;}
-    .big { font-size: 3.5em; }
+    span { font-family: 'Open Sans'; font-weight: 300; display: inline-block; color: #fff; font-size: 2.1em;}
+    .big { font-family: 'Open Sans'; font-weight: 400; font-size: 3.5em; }
   }
   .stars {  margin: 1em auto; width: 100%; height: 6em;}
   .arrow > div { width: 0;height: 0;border-left: 2em solid transparent; border-right: 2em solid transparent; border-bottom: 2em solid #fff; margin: 0px auto; }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591654c9-a8e5-4669-9a96-9dca8fc986d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
     </list>
     <ignored path="backflyer.iws" />
@@ -23,7 +22,7 @@
     <file path="/sample.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1377037649439" ignored="false" />
     <file path="/routes.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383573037327" ignored="false" />
     <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383755708983" ignored="false" />
-    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383908829307" ignored="false" />
+    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383909529076" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383667338527" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="new_page.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.423077">
+            <state line="3" column="46" selection-start="225" selection-end="225" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -65,7 +64,7 @@
       <file leaf-file-name="links.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="47" selection-start="755" selection-end="755" vertical-scroll-proportion="0.3134752">
+            <state line="17" column="51" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.40992907">
               <folding />
             </state>
           </provider>
@@ -799,14 +798,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.423077">
+        <state line="3" column="46" selection-start="225" selection-end="225" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="755" selection-end="755" vertical-scroll-proportion="0.3134752">
+        <state line="17" column="51" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.40992907">
           <folding />
         </state>
       </provider>
