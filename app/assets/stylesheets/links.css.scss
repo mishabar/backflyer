@@ -2,14 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 html, body { margin: 0px; padding: 0px;}
 #container{ font-family: 'Open Sans', Verdana, sans-serif; }
 .main-game{
   text-align: center;
   > div {background: transparent url('/img/opacity.png');}
-  .top-text{ font-size: 3.5em; font-style: italic; color: #fff; margin: 0px auto; padding-bottom: 0.8em; padding-top: 0.3em;}
+  .top-text{ font-family: Lato, sans-serif; font-size: 3.5em; font-style: italic; color: #fff; margin: 0px auto; padding-bottom: 0.8em; padding-top: 0.3em;}
   .image { height: 20em; width: 20em; margin: 0px auto; border-radius: 1em; background-size: 100%; background-size:cover;}
-  .name { font-size: 5em; font-weight: bold; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #fff; padding: 0.8em;}
+  .name { font-family: Verdana;font-size: 5em; font-weight: bold; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #fff; padding: 0.8em;}
   .dl-button { background-color: #849e26; margin: 0px auto; padding: 1em 4em; display: inline-block;
     img { float: left; margin-right: 2em;}
     span { display: inline-block; color: #fff; font-size: 2.1em;}
@@ -20,7 +22,7 @@ html, body { margin: 0px; padding: 0px;}
 }
 .more-games {
   text-align: center;
-  .bottom-text{ font-size: 3.5em; color: #000; margin: 0px auto; padding-top: 0.5em; text-align: center;}
+  .bottom-text{ font-family: Verdana; font-size: 3.5em; color: #000; margin: 0px auto; padding-top: 0.5em; text-align: center;}
   table { border: none; margin: 0.5em auto;}
   td { padding: 1em;}
   img { border-radius: 1em; width: 10em; height: 10em; border: 1px solid transparent;}

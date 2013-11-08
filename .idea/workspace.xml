@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591654c9-a8e5-4669-9a96-9dca8fc986d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/android-dl.png" afterPath="$PROJECT_DIR$/public/img/android-dl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backflyer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383755489352" ignored="false" />
+    <file path="/Dummy.txt" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383908626568" ignored="false" />
     <file path="/app-imports.rake" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376330140810" ignored="false" />
     <file path="/Gemfile" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1381096727216" ignored="false" />
     <file path="/android_apps_importer.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1376407809819" ignored="false" />
@@ -22,7 +23,7 @@
     <file path="/sample.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1377037649439" ignored="false" />
     <file path="/routes.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383573037327" ignored="false" />
     <file path="/new_page.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383755708983" ignored="false" />
-    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383672000852" ignored="false" />
+    <file path="/links.css.scss" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383908829307" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383667338527" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="links_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="links_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.6141844">
+            <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,17 +57,15 @@
         <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="23" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.423077">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="links.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+            <state line="11" column="52" selection-start="483" selection-end="483" vertical-scroll-proportion="0.26524824">
               <folding />
             </state>
           </provider>
@@ -107,9 +106,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
         <option value="$PROJECT_DIR$/app/views/links/new_page.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/links.css.scss" />
       </list>
     </option>
   </component>
@@ -153,7 +152,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -382,12 +380,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Social-Trivia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
   </component>
@@ -618,7 +617,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25868726" sideWeight="0.60349464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26190478" sideWeight="0.60349464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3965054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -767,9 +766,9 @@
         <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+        <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -777,15 +776,13 @@
     <entry file="file://$PROJECT_DIR$/app/views/links/new_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.423077">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.6141844">
+        <state line="11" column="52" selection-start="483" selection-end="483" vertical-scroll-proportion="0.26524824">
           <folding />
         </state>
       </provider>
