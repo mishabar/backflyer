@@ -48,7 +48,7 @@ class LinksController < ApplicationController
         ipAddress = request.env['HTTP_X_FORWARDED_FOR']
       end
 
-      ipAddress = "189.76.27.190"
+      #ipAddress = "189.76.27.190"
 
       xml = HTTParty.get(URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=1&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{ipAddress}"))
       URI::escape("http://ads.appia.com/v2/getAds?id=571&password=XXGZVOSEURVRRQSNNQPV9XIJ1F&siteId=4140&categoryId=5,7,9,17,19,21,24&adTypeId=1&totalCampaignsRequested=5&sessionId=#{request.session_options[:id]}&userAgentHeader=#{request.env['HTTP_USER_AGENT']}&ipAddress=#{ipAddress}")
