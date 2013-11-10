@@ -57,7 +57,7 @@ class LinksController < ApplicationController
       request.env.each { |k, v| puts "#{k} - #{v}" }
       @ads = xml['ads']['ad']
 
-      puts "Time elapsed #{Time.now - beginning} seconds".
+      puts "Time elapsed #{Time.now - beginning} seconds"
     else
       render :text => 'Available only for mobile devices'
     end
