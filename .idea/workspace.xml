@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="591654c9-a8e5-4669-9a96-9dca8fc986d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backflyer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +28,7 @@
     <file path="/database.yml" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383911744789" ignored="false" />
     <file path="/20131108122344_create_clicks_counter.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383913580097" ignored="false" />
     <file path="/clicks_counter.rb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1383914753725" ignored="false" />
-    <file path="/application.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1384276238912" ignored="false" />
+    <file path="/application.html.erb" changelist="591654c9-a8e5-4669-9a96-9dca8fc986d7" time="1384276717748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="18" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.577548">
+            <state line="17" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.4268833">
               <folding />
             </state>
           </provider>
@@ -97,7 +98,7 @@
       <file leaf-file-name="links.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+            <state line="20" column="2" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -867,14 +868,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/links.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+        <state line="20" column="2" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="18" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.577548">
+        <state line="17" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.4268833">
           <folding />
         </state>
       </provider>
