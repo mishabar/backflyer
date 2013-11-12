@@ -2,7 +2,26 @@
 <html>
 <head>
   <title>Backflyer</title>
-  <%= stylesheet_link_tag 'links', :media => 'all' %>
+  <style>
+      html, body { margin: 0px; padding: 0px;}
+      #container { font-family: Verdana, sans-serif; }
+      .main-game { text-align: center;}
+      .main-game > div {background: transparent url('/img/opacity.png');}
+      .main-game .top-text{ font-family: Lato, sans-serif; font-size: 3.5em; font-style: italic; color: #fff; margin: 0px auto; padding-bottom: 0.8em; padding-top: 0.3em;}
+      .main-game .image { height: 20em; width: 20em; margin: 0px auto; border-radius: 1em; background-size: 100%; background-size:cover;}
+      .main-game .name { font-family: Verdana;font-size: 5em; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #fff; padding: 0.8em;}
+      .main-game .dl-button { background-color: #849e26; margin: 0px auto; padding: 1em 4em; display: inline-block;
+      .main-game .dl-button img { float: left; margin-right: 2em;}
+      .main-game .dl-button span { font-family: 'Open Sans'; font-weight: 300; display: inline-block; color: #fff; font-size: 2.1em;}
+      .main-game .dl-button .big { font-family: 'Open Sans'; font-weight: 400; font-size: 3.5em; }
+      .main-game .stars {  margin: 1em auto; height: 6em; overflow: hidden; }
+      .main-game .arrow > div { width: 0;height: 0;border-left: 2em solid transparent; border-right: 2em solid transparent; border-bottom: 2em solid #fff; margin: 0px auto; }
+      .more-games { text-align: center;}
+      .more-games .bottom-text{ font-family: Verdana; font-size: 3.5em; color: #000; margin: 0px auto; padding-top: 0.5em; text-align: center;}
+      .more-games table { border: none; margin: 0.5em auto;}
+      .more-games td { padding: 1em;}
+      .more-games img { border-radius: 1em; width: 10em; height: 10em; border: 1px solid transparent;}
+  </style>
   <%= csrf_meta_tags %>
 </head>
 <body>
